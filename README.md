@@ -4,6 +4,6 @@ a living vector DB
 
 - [ ] read
 - [ ] write
-- [ ] MCP server
+- [ ] acompanying MCP server
 - [ ] pay ecash to post
 - [ ] pay ecash to read

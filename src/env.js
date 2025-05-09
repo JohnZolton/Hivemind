@@ -8,7 +8,7 @@ export const env = createEnv({
    */
   server: {
     NODE_ENV: z.enum(["development", "test", "production"]),
-    Qdrant_url: z.string().url(),
+    Qdrant_url: z.string().min(1),
     Qdrant_key: z.string().min(1),
     OpenAI_key: z.string().min(1),
   },
